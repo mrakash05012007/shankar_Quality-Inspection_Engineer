@@ -59,17 +59,6 @@ export default function Hero() {
           
           {/* Left: Text Content */}
           <div className="relative z-10">
-            {/* Top badge */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 bg-soft-orange border border-orange-200 rounded-full px-4 py-1.5 mb-6"
-            >
-              <div className="w-2 h-2 bg-safety-orange rounded-full animate-pulse" />
-              <span className="text-safety-orange text-sm font-semibold">Available for Inspection Opportunities</span>
-            </motion.div>
-
             {/* Name */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
